@@ -1,17 +1,22 @@
 <template>
   <div class="event">
     <p>I am one event</p>
-    <ul id="v-for-object" class="demo">
-        <li v-for="(value, name) in person" v-bind:key="(value,name)">
-            {{ name }}: {{ value }}
-        </li>
-    </ul>
+    <div id="v-for-object" class="demo">
+        <div v-for="name in person" v-bind:key="name">
+            <Row :msg="name"/>
+            
+        </div>
+    </div>
   </div>
 </template>
 
 <script>
+import Row from './Row.vue'
 export default {
   name: 'Event',
+  components: {
+      Row
+  },
   props: {
     msg: String
   },
