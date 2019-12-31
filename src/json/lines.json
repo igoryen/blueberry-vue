@@ -1,0 +1,41 @@
+[
+    {
+        "from": "1492-10-28",
+        "till": "",
+        "country": "cuba",
+        "province": "",
+        "locality": "",
+        "where": "",
+        "title": "Christopher Columbus arrives in Cuba and claims the island for Spain.",
+        "desc": "",
+        "result": "",
+        "link": "",
+        "fam": null
+    },
+    {
+        "from": "1497-06-24",
+        "till": "",
+        "country": "canada",
+        "province": "",
+        "locality": "",
+        "where": "",
+        "title": "Italian explorer John Cabot claims the island of Newfoundland for England.",
+        "desc": "",
+        "result": "",
+        "link": "",
+        "fam": null
+    },
+    {
+        "from": "1508-01-01",
+        "till": "",
+        "country": "cuba",
+        "province": "",
+        "locality": "",
+        "where": "",
+        "title": "Sebastián de Ocampo circumnavigates Cuba, confirming that it is an island.",
+        "desc": "",
+        "result": "",
+        "link": "",
+        "fam": null
+    }
+]
