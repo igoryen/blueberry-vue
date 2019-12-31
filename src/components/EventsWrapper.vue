@@ -40,7 +40,11 @@ export default {
     },
     methods: {
         submit() {
-            console.log(this.user)
+            this.$http.post('https://blueberry-f0510.firebaseio.com/data.json', this.user)
+            .then( 
+                response => { console.log(response); },
+                error => { console.log(error); }
+            );
         }
     }
 }
