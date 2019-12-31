@@ -1,6 +1,15 @@
 <template>
   <div class="events">
     <p>Events</p>
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" class="form-control" v-model="user.username">
+    </div>
+    <div class="form-group">
+        <label>Mail</label>
+        <input type="text" class="form-control" v-model="user.email">
+    </div>
+    <button @click="submit">Submit</button>
     <div id="v-for-object" class="demo">
         <div v-for="data in myJson" v-bind:key="data">
             <Event :msg="data.title"/>            
@@ -22,7 +31,16 @@ export default {
   },
     data() {
         return {
+            user: {
+                username: '',
+                email: ''
+            },
             myJson: lines
+        }
+    },
+    methods: {
+        submit() {
+            console.log(this.user)
         }
     }
 }
