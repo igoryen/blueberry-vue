@@ -2,20 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Blueberry app"/>
-    <Event/>
+    <EventsWrapper/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Event from './components/Event.vue'
+import EventsWrapper from './components/EventsWrapper.vue'
 
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    Event
+    EventsWrapper
   }
 }
 </script>
